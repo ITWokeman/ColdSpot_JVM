@@ -1,0 +1,15 @@
+由于本虚拟机不太完善（一些本地方法未实现），一些java的功能无法使用。为了不影响这些功能，因此配套了相应的类临时替代相应功能。
+
+零、如何使用？
+比如目录E:\workplace下的Test.java下使用了saltedfish.util.SFRandom
+那么在Test.java下输入import saltedfish.util.SFRandom;语句，然后将saltedfish.util.SFRandom.java放到目录E:\workplace
+在命令行输入javac -encoding utf8 E:\workplace\*.java即可编译
+
+一、saltedfish.util包
+2、SFArrayList类：化简版java.util.ArrayList。
+
+二、saltedfish.oi包
+SFFileReader类：读取文件内容
+
+三、saltedfish.concurrentd包
+涉及虚拟机的多线程相关内容

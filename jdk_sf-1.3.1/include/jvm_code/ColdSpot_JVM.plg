@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: my jvm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"debug/rc.res" /i "ico" /d "_DEBUG" "C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\ico\rc.rc"" 
+Creating temporary file "C:\Users\21905\AppData\Local\Temp\RSP3E12.tmp" with contents
+[
+/nologo /MLd /w /W0 /Gm /GX /ZI /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"debug/ColdSpot_JVM.pch" /YX /Fo"debug/" /Fd"debug/" /FD /GZ /c 
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\ClassLoadActuator.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\AccessFlagDecoder.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\ClassFileDecoder.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\ClassLoader.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\Comparisons.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\constants.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\control.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\conversions.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\extended.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\Loads.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\math.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\references.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\stack.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\stores.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\reserved.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\HackMethod.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\InstDecoder.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\Interpreter.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\java_lang.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\java_util.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\sun_misc.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\sun_reflect.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\sun_security.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\saltedfish_io.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\Heap.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\methodArea.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\Recycler.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\VMTools.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\JVM.CPP"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\UTF8CNDecoder.cpp"
+"C:\Users\21905\Desktop\索顿菲斯软件工业公司——产品\咸鱼冻点Java虚拟机\jdk_sf-1.3.1\include\冰点Java虚拟机\cpp\ConfigDecoder.cpp"
+]
+Creating command line "cl.exe @C:\Users\21905\AppData\Local\Temp\RSP3E12.tmp" 
+Creating temporary file "C:\Users\21905\AppData\Local\Temp\RSP3E13.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"debug/ColdSpot_JVM.pdb" /debug /machine:I386 /out:"..\..\bin\ColdSpot_JVM.exe" /pdbtype:sept 
+".\debug\ClassLoadActuator.obj"
+".\debug\AccessFlagDecoder.obj"
+".\debug\ClassFileDecoder.obj"
+".\debug\ClassLoader.obj"
+".\debug\Comparisons.obj"
+".\debug\constants.obj"
+".\debug\control.obj"
+".\debug\conversions.obj"
+".\debug\extended.obj"
+".\debug\Loads.obj"
+".\debug\math.obj"
+".\debug\references.obj"
+".\debug\stack.obj"
+".\debug\stores.obj"
+".\debug\reserved.obj"
+".\debug\HackMethod.obj"
+".\debug\InstDecoder.obj"
+".\debug\Interpreter.obj"
+".\debug\java_lang.obj"
+".\debug\java_util.obj"
+".\debug\sun_misc.obj"
+".\debug\sun_reflect.obj"
+".\debug\sun_security.obj"
+".\debug\saltedfish_io.obj"
+".\debug\Heap.obj"
+".\debug\methodArea.obj"
+".\debug\Recycler.obj"
+".\debug\VMTools.obj"
+".\debug\JVM.OBJ"
+".\debug\UTF8CNDecoder.obj"
+".\debug\ConfigDecoder.obj"
+".\debug\rc.res"
+]
+Creating command line "link.exe @C:\Users\21905\AppData\Local\Temp\RSP3E13.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ClassLoadActuator.cpp
+AccessFlagDecoder.cpp
+ClassFileDecoder.cpp
+ClassLoader.cpp
+Comparisons.cpp
+constants.cpp
+control.cpp
+conversions.cpp
+extended.cpp
+Loads.cpp
+math.cpp
+references.cpp
+stack.cpp
+stores.cpp
+reserved.cpp
+HackMethod.cpp
+InstDecoder.cpp
+Interpreter.cpp
+java_lang.cpp
+java_util.cpp
+sun_misc.cpp
+sun_reflect.cpp
+sun_security.cpp
+saltedfish_io.cpp
+Heap.cpp
+methodArea.cpp
+Recycler.cpp
+VMTools.cpp
+JVM.CPP
+UTF8CNDecoder.cpp
+ConfigDecoder.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+..\..\bin\ColdSpot_JVM.exe : warning LNK4084: total image size 280776704 exceeds max (268435456); image may not run
+
+
+
+<h3>Results</h3>
+ColdSpot_JVM.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

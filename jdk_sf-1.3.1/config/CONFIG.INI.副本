@@ -5,26 +5,20 @@
 ###############################
 
 ################################################################################################
-#					堆区参数配置					              #
 
-#JVM堆区大小，单位：字节。配置正整数，别搞事	
+#JVM堆区大小，单位：字节	
 $HEAP_MAX_MEMORY=5242880
 
-#JVM老年代对象年龄门槛。配置正整数，别搞事	
+#JVM老年代对象年龄门槛
 $HEAP_OLD_AREA_AGE=14
 
-#堆区新生代与老年代比例。如1:2。
+#堆区新生代与老年代比例。如1:2
 $RATIO=1:2
 
-################################################################################################
-#				                方法栈参数配置					              #
-
-#JVM方法栈深。配置正整数，别搞事
-#1024*16	
-$MAX_METHOD_STACK=16384
+#JVM方法栈深
+$MAX_METHOD_STACK=1024
 
 ################################################################################################
-#					路径参数配置					              #
 
 #启动类加载器类加载路径，这条路径必须在JAVA_HOME目录下，且只能以JAVA_HOME为准配置相对路径
 #比如核心类库在$JAVA_HOME/jre/lib目录下，则下面$BOOTCLASSPATH=jre/lib
@@ -35,7 +29,7 @@ $BOOTCLASSPATH=jre\lib
 $BOOTCLASSPATH=jre\lib2
 
 #扩展类加载器类加载路径。同上，也必须在JAVA_HOME目录下，且以JAVA_HOME为准
-#如果核心类库在$JAVA_HOME\jre\ext目录下，则下面$EXTCLASSPATH=jre\ext
+#如果核心类库在$JAVA_HOME/jre/ext目录下，则下面$EXTCLASSPATH=jre/ext
 $EXTCLASSPATH=jre\ext
 $EXTCLASSPATH=jre\ext2
 
@@ -43,26 +37,28 @@ $EXTCLASSPATH=jre\ext2
 $APPCLASSPATH=D:\Users\hfy\Desktop\sf_jdk\example\classbin
 $APPCLASSPATH=D:\Users\hfy\Desktop\sf_jdk\JavaCompiler
 $APPCLASSPATH=D:\Users\hfy\Desktop\workplace
-$APPCLASSPATH=C:\Users\Administrator\Desktop\索顿菲斯软件工业公司\冰点Java虚拟机\JavaWorkplace
 
 ################################################################################################
 
-#类校验选项配置。选择需要类校验器要校验的内容。参数为true或false
+#类校验选项配置。选择需要类校验器要校验的内容
 
-$VERIFY=true		#是否开启校验
+#是否开启校验
+$VERIFY=true
 
-#1.类文件格式校验
-$VERIFYCLASSFORM=true	#是否校验类文件格式
-$VERIFYCONSTTYPE=false	#是否校验常量池类型
+#是否校验类文件格式
+$VERIFYCLASSeFORM=true
 
-#2.元数据校验
-$VERIFYMETADATA=true	#是否校验元数据
+#校验类文件格式的话，是否校验常量池类型
+$VERIFYCONSTTYE=fasle
 
-#3.字节码校验
-$VERIFYBYTECODE=true	#是否校验字节码
+#是否校验元数据
+$VERIFYMETADATA=true
 
-#4.符号引用校验
-$VERIFYSYMBOLREF=false	#是否校验符号引用
+#是否校验字节码
+$VERIFYBYTECODE=true
+
+#是否校验符号引用
+$VERIFYSYMBOLREF=true
 
 #结束。
 END	
